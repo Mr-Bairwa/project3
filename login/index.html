@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"  />
+
+    <script>
+      function myfunction() {
+        let icon = document.getElementById("icon");
+        let x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+          icon.src = "eye-open(2).svg";
+        } else {
+          x.type = "password";
+          icon.src = "eye-close.svg";
+        }
+      }
+    </script>
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+
+          <center><h1>Welcome</h1></center>
+        
+          <label>Username</label>
+        <input type="text" autocomplete="email" />
+        <div class="pass">
+          <label>Password</label>&nbsp;
+          <input type="password" id="myInput" style="font-family: 'Times New Roman', Times, serif; font-size: larger;"/>
+          <br/>
+          <br />
+
+          <img src="eye-close.svg" id="icon" alt="" onclick="myfunction()"  style="height: 20px; margin-top: 27px; padding-left: 12px;">
+        </div>
+
+        <a href="http://" target="_blank" style="margin-top: 10px;"> Forget Password </a>
+        
+        <hr />
+        <button>Sign up</button>
+        <br/>
+        <center><strong style="font-size: 25px">login with</strong></center>
+      </div>
+      <div class="Logo">
+        <img src="image1.png" alt="Google" style="height: 40px; width: 40px; margin-right: 20px"/>
+        <img src="image2.jpg" alt="facebook" style=" border-radius: 50%; height: 40px; width: 40px; margin-left: 10px;" >
+       
+      </div>
+      
+      <P style="margin-right: 10px; margin-left: 150px;">
+
+          Already have an account?<a href="#">Log in</a>
+      </P>
+    </div>
+</body>
+</html>

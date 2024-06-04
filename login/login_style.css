@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+
+    background-image: url("—Pngtree—modern\ double\ color\ futuristic\ neon_1181573.jpg");
+
+
+
+}
+
+.container{
+    height: 600px;
+    width: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.308);
+    /* filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    box-shadow: 4px 4px 4px 4px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    color: white;
+    
+
+}
+
+h1{
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+.inner-container{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+label{
+    font-size: 25px;
+    
+}
+
+input{
+    
+    height: 30px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px ;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: -30px;
+    color: white;
+    font-size: large;
+    
+    
+    
+}
+.pass{
+    display: flex;
+}
+/* 
+.password{
+    margin-right: 50px;
+    height: 20px;
+
+} */
+label{
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+
+a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+
+hr{
+    margin-top: 65px;
+}
+
+button{
+    width: 400px;
+    height:50px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+.Logo{
+    margin-left: 250px;
+    margin-top: -20px;
+}
+/* img{
+    height: 40px;
+    width: 40px;
+    margin-right:20px ;
+} */
+
+img{
+    height: 10px;
+    margin-top: 30px;
+    margin-left: -47px;
+    
+}
